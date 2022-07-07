@@ -1,0 +1,21 @@
+@media screen and (max-width: 1240px) {
+  .call-to-action-img-box {
+    height: auto;
+  }
+  .contact-section {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .contact-img {
+    padding: 50%;
+    margin: 20px auto;
+  }
+  .form-box {
+    margin: 50px auto;
+  }
+}
